@@ -6,7 +6,7 @@ body {
 li {
     list-style-type: none;
     display: inline;
-    
+
 }
 
 a:link {
@@ -18,7 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background: linear-gradient(#d4f0fc,#89d6fb);
+    background: linear-gradient(#d4f0fc, #89d6fb);
     border-radius: 30px;
     font-family: 'Kalam';
     font-style: normal;
@@ -26,4 +26,19 @@ nav {
     font-size: 20px;
     line-height: 20px;
     padding: 10px 50px 10px 50px;
+}
+
+div {
+    margin: 50px;
+    border: 1px solid black;
+    background: linear-gradient(#d4f0fc, #89d6fb);
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-style: normal;
+    color: #7B0000;
+    text-align: center;
 }
