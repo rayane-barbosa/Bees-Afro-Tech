@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(#44008b, #9f45b0, #e54ed0);
+
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(#d4f0fc,#89d6fb);
+    border-radius: 30px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 10px 50px 10px 50px;
+}
