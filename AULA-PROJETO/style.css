@@ -1,18 +1,15 @@
 body {
     background-image: linear-gradient(#44008b, #9f45b0, #e54ed0);
+    
 }
-
 li {
     list-style-type: none;
     display: inline;
-
 }
-
 a:link {
     text-decoration: none;
     color: #ffffff;
 }
-
 nav {
     display: flex;
     flex-direction: row;
@@ -26,7 +23,6 @@ nav {
     line-height: 20px;
     padding: 10px 50px 10px 50px;
 }
-
 div {
     margin: 50px;
     border: 1px solid black;
@@ -37,16 +33,22 @@ div {
     margin-left: auto;
 
 }
-
 h2 {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-family: 'Kalam';
     font-style: normal;
     font-style: normal;
     color: #7B0000;
     text-align: center;
 }
+h3{
+    text-emphasis: center;
+    font-style: normal;
+    font-style: normal;
+    font-family: 'Kameron';
+    padding: auto;
 
+}
 p {
     font-family: 'Kameron';
     font-style: normal;
@@ -55,21 +57,38 @@ p {
     padding: 10px 50px 10px 50px;
     color: #01303f;
 }
-
+img{
+    width: 100px;
+    height: 100px;
+}
 .avatar {
     display: block;
     margin-top: auto;
     margin-right: auto;
     margin-left: auto;
-    width: 100px;
-    height: 100px;
     border-radius: 100%;
     padding-top: 25px;
 }
-
-.logo-stacks{
-    justify-items: flex-end;
-    height: 100px;
-    width: 100px;    
+#logo-image{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
 
 }
+.social-media{
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding-left: auto;
+    background-color: linear-gradient( #89d6fb,#d4f0fc);
+  }
+  
+
+
