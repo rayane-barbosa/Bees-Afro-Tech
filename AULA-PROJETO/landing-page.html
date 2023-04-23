@@ -21,11 +21,12 @@
     <div class="container" id="home">
         <img src="perfil-foto.jpg" alt="Avatar" class="avatar">
 
-        <h2>👩  Sobre mim 🏳️‍🌈</h2>
-        <p> 🤔    Explorando novas tecnologias e desenvolvendo soluções de software.<br>
-            🎓   Estudando Engenharia de Computação na Universidade São Francisco.<br>
-            💼   Trabalhando como Técnico de Redes I na Global Hitss<br>
-            🌱   Aprendendo mais sobre DATA SCIENCE, INTELIGÊNCIA ARTIFICIAL, ENGENHARIA DE DADOS, FRONT-END entre outras tecnologias.</p>
+        <h2>👩 Sobre mim 🏳️‍🌈</h2>
+        <p> 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.<br>
+            🎓 Estudando Engenharia de Computação na Universidade São Francisco.<br>
+            💼 Trabalhando como Técnico de Redes I na Global Hitss<br>
+            🌱 Aprendendo mais sobre DATA SCIENCE, INTELIGÊNCIA ARTIFICIAL, ENGENHARIA DE DADOS, FRONT-END entre outras
+            tecnologias.</p>
     </div>
     <br>
     <div class="container">
@@ -77,23 +78,41 @@
         </div>
 
 
-        <form onsubmit="return validarForm()">
-            <section class="dados">
-                <label for="email">E-mail:</label><br>
-                <input type="text" id="email" name="email"><br>
-                <br>
-                <label for="telefone">Telefone:</label><br>
-                <input type="text" id="telefone" name="telefone"><br>
-            </section>
-            <section class="texto">
-                <textarea name="message" rows="10" cols="30">Escreva sua mensagem
-                    
-            </textarea>
-            </section>
-            <br>
-            <input type="submit" value="Enviar">
-        </form>
+
+
+
+        <div class="formulario">
+            <div class="form-wrapper">
+                <form onsubmit="return validarForm()">
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" id="telefone" name="telefone">
+                        
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+
     </div>
+
+
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 

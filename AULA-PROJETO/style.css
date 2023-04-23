@@ -89,28 +89,52 @@ p {
     justify-content: center;
     background-color: linear-gradient(#89d6fb, #d4f0fc);
 }
-form{
-    padding-left: 50px;
+
+.formulario {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
 }
-input[type=text] {
-    width: auto;
-    box-sizing: border-box;
-    border: solid;
-    background: linear-gradient(#89d6fb, #d4f0fc);
-    color: #010507;
-    
+  .form-wrapper {
+    width: 400px; 
+    padding: 20px; 
+    background-color:linear-gradient(#d4f0fc,#89d6fb,#e54ed0);
+    border-radius: 5px; 
+    box-shadow: 0 0 10px #44008b; 
 }
-.dados{
-    display: flex;
-    flex-wrap: wrap;    
+
+  form {
+    display: flex; 
+    flex-direction: column; 
 }
-textarea{
-    width: auto;
-    border: solid;
-    background: linear-gradient(#89d6fb, #d4f0fc);
-    color: #010507;    
+  .form-group {
+    margin-bottom: 20px;
 }
-.texto{
-    display: flex;
-    padding: auto;
-    }
+  label {
+    display: block;
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%; 
+  padding: 10px;
+  border: none; 
+  border-radius: 5px; 
+  background-color:linear-gradient(#89d6fb, #ffffff); 
+  box-shadow: inset 0 0 5px #ccc; 
+}
+button[type="submit"] {
+    background-color: #7d1784;
+    color: #d4f0fc; 
+    border: none; /
+    border-radius: 3px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+
+  
+  
