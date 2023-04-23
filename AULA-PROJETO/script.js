@@ -1,3 +1,4 @@
+/*Validação do campo e-mail e campo telefone recebidos via input no html*/
 function validarForm() {
     var email = document.getElementById("email").value;
     var telefone = document.getElementById("telefone").value;
