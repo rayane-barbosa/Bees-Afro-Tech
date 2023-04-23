@@ -70,22 +70,18 @@
                     target="_blank"></a>
         </section>
 
-        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-            <label for="fname">E-mail:</label><br>
-            <input type="text" id="email" name="fname"><br>
+        <form onsubmit="return validarForm()">
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email" name="email"><br>
             <br>
-            <label for="fname">Telefone:</label><br>
-            <input type="text" id="telefone" name="fname"><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone"><br>
             <textarea name="message" rows="10" cols="30">Escreva sua mensagem
             </textarea>
             <br><br>
-            <input type="submit">
+            <input type="submit" value="Enviar">
         </form>
-
-
     </div>
-
-
-</body>
+ </body>
 
 </html>
