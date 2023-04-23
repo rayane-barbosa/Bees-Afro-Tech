@@ -70,11 +70,14 @@
                     target="_blank"></a>
         </section>
 
-        <form id="formulario">
-            <label for="fname">E-mail:</label>
-            <input type="text" id="fname" name="fname"><br>
+        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <label for="fname">E-mail:</label><br>
+            <input type="text" id="email" name="fname"><br>
+            <br>
+            <label for="fname">Telefone:</label><br>
+            <input type="text" id="telefone" name="fname"><br>
             <textarea name="message" rows="10" cols="30">Escreva sua mensagem
-                </textarea>
+            </textarea>
             <br><br>
             <input type="submit">
         </form>
