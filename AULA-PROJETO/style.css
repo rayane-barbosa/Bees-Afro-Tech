@@ -1,3 +1,9 @@
+*{
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5px;
+       
+}
 body {
     background-image: linear-gradient(#44008b, #9f45b0, #e54ed0);
     
@@ -89,6 +95,7 @@ img{
     padding-left: auto;
     background-color: linear-gradient( #89d6fb,#d4f0fc);
   }
-  
 
-
+  center{
+    text-align:center;
+  }
