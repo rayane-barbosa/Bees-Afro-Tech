@@ -1,9 +1,7 @@
 * {
     align-items: center;
     align-content: center;
-    justify-content:space-between;
     padding-bottom: 5px;
-
 }
 
 body {
@@ -11,14 +9,22 @@ body {
 
 }
 
+img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
 li {
     list-style-type: none;
     display: inline;
+    
 }
 
 a:link {
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 
 nav {
@@ -35,7 +41,7 @@ nav {
     padding: 10px 50px 10px 50px;
 }
 
-div {
+.container {
     margin: 50px;
     border: 1px solid black;
     background: linear-gradient(#d4f0fc, #89d6fb);
@@ -43,7 +49,6 @@ div {
     margin-top: auto;
     margin-right: auto;
     margin-left: auto;
-
 }
 
 h2 {
@@ -55,15 +60,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    text-emphasis: center;
-    font-style: normal;
-    font-style: normal;
-    font-family: 'Kameron';
-    padding: auto;
-
-}
-
 p {
     font-family: 'Kameron';
     font-style: normal;
@@ -71,11 +67,6 @@ p {
     line-height: 30px;
     padding: 10px 50px 10px 50px;
     color: #01303f;
-}
-
-img {
-    width: 150px;
-    height: 150px;
 }
 
 .avatar {
@@ -86,37 +77,40 @@ img {
     border-radius: 100%;
     padding-top: 25px;
 }
-
-#logo-image {
+.logo{
     display: flex;
-    margin-top: auto;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
 }
 
 .social-media {
-    width: 100px;
-    height: auto;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    padding-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: linear-gradient(#89d6fb, #d4f0fc);
 }
-
 form{
     padding-left: 50px;
 }
 input[type=text] {
-    width: 75%;
-    padding: 5px 12px 20px 50px;
-    margin: 8px 0;
+    width: auto;
     box-sizing: border-box;
     border: solid;
     background: linear-gradient(#89d6fb, #d4f0fc);
-    color: #01303f;
+    color: #010507;
+    
+}
+.dados{
+    display: flex;
+    flex-wrap: wrap;    
 }
 textarea{
+    width: auto;
     border: solid;
     background: linear-gradient(#89d6fb, #d4f0fc);
-    color: #01303f;    
+    color: #010507;    
 }
+.texto{
+    display: flex;
+    padding: auto;
+    }
