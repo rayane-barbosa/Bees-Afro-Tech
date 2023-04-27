@@ -12,8 +12,9 @@ function Menu(props) {
             <nav>
                 <ul>
                     {props.menuItems.map((item, index) => (
-                        <Button key={index} nome = {item}/>
+                        <Button key={index} nome ={item}/>
                     ))}
+
                 </ul>
             </nav>
 
