@@ -1,5 +1,6 @@
 import React from "react";
 import "./Menu.css";
+import Button from "../Button/Button";
 
 
 
@@ -11,7 +12,7 @@ function Menu(props) {
             <nav>
                 <ul>
                     {props.menuItems.map((item, index) => (
-                        <li key={index}>{item}</li>
+                        <Button key={index} nome = {item}/>
                     ))}
                 </ul>
             </nav>

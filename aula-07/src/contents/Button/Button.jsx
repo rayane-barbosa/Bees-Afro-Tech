@@ -6,9 +6,11 @@ import "./Button.css";
 
 function Button(props) {
     return (
-        <button className="Botao">{props.botao}</button>
-          
-           
+        <button className="Botao">
+            {props.botao}
+        </button>
+
+
     );
 }
 
