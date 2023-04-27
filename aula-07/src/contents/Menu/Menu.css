@@ -1,0 +1,7 @@
+.Menu{
+    background-color: aqua;
+    color: blueviolet;
+}
+li{
+    display: inline;
+}
