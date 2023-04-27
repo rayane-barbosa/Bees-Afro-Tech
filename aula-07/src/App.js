@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
-import Menu from './contents/Menu/Menu';
-import './contents/Menu/Menu.css';
+import Menu from './Components/Menu/Menu.jsx';
+
 
 
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Menu 
         title="O restaurante no fim do universo"
-        menuItems={["Cardapio", "Sobre", "Contato"]}
+        menuItems={["Cardapio", "Programação","Sobre", "Contato"]}
         />
         <main>
           {/* Conteudo */}
