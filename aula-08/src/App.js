@@ -1,4 +1,3 @@
-
 import icone from './icone.png'
 import './App.css';
 
