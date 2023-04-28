@@ -1,8 +1,8 @@
 .postagem{
-    margin-top: 50px;
+    margin-top: 100px;
     background: #F6E3FF;
-    width: 950px;
-    height: 250px;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    width: auto;
+    height: 350px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
