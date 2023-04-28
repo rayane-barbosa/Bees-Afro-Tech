@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Componentes/Header/Header.jsx';
 import imagem from './imagem.png';
 import Linha from './Componentes/LinhaDivisoria/LinhaDiv.jsx';
+import Input from './Componentes/Input/Input';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       />
 
       <Linha/>      
+      <Input defaultText="o que estou pensando..."/>
       
       {/* Linha Divisoria*/}
 
