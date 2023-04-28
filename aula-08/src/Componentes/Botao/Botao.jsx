@@ -4,9 +4,11 @@ import "./Botao.css";
 
 function Botao(props) {
     return (
-        <button className="Botao">
+        <div className="alinhaBtn">
+        <button className="botao">
             {props.nome}           
         </button>
+        </div>
     );
 }
 export default Botao;
