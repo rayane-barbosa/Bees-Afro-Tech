@@ -18,9 +18,8 @@ function App() {
 
       <Linha/>      
       <Input defaultText="o que estou pensando..."/>
-
       <Botao nome="Publicar"/>
-      <Linha/>  
+      <Linha/>       
 
            
       {/* Linha Divisoria*/}
