@@ -1,3 +1,25 @@
-div{
-    background-color: rgb(23, 71, 55);
+.principal{
+    background-color: lightcoral;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.imagem{
+    background-color: lightgreen;
+    width: 40%;
+    height: 500px;
+}
+.texto{
+    background-color: lightsalmon;
+    width: 40%;
+    height: 500px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
