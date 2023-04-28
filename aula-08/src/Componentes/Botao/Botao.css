@@ -6,15 +6,22 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
-    width: 110px;
+    width: 175px;
     height: auto;
 }
 
-.alinhaBtn {
+.alinhaBotao {
+    margin-top: 35px;
+    margin-right: 100px;
     display: flex;
-    justify-content: right;
-    margin-top: 25px;
-    margin-right: 150px;
+    justify-content: flex-end;
     margin-bottom: 50px;
+}
 
+.postagem {
+    position: relative;
+}
+
+.postagem .botao {
+    display:inline;
 }

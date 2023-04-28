@@ -3,12 +3,13 @@ import "./Botao.css";
 
 
 function Botao(props) {
-    return (
-        <div className="alinhaBtn">
+    const { nome, alinhamento } = props;
+
+       return (
         <button className="botao">
-            {props.nome}           
+            {nome}
         </button>
-        </div>
+
     );
 }
 export default Botao;
