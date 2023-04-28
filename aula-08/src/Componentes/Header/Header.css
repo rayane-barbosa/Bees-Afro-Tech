@@ -11,12 +11,12 @@
     align-items: center;
     margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     inline-size: auto;
 
 }
 .header img {
-    margin: 25px 30px 25px 0;
-    
+    margin: 25px 30px 25px 0;    
   }
 
 img {

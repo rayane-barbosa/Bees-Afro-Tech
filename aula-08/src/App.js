@@ -2,6 +2,7 @@ import icone from './icone.png';
 import './App.css';
 import Header from './Componentes/Header/Header.jsx';
 import imagem from './imagem.png';
+import Linha from './Componentes/LinhaDivisoria/LinhaDiv.jsx';
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
       imagem = {imagem}
       alt ="imagem-bloco-anotacoes"
       />
+
+      <Linha/>      
       
-      
-      {/* HEADER - MEU FEED
-        IMAGEM - ICONE*/}
+      {/* Linha Divisoria*/}
 
       {/* INPUT*/}
 
