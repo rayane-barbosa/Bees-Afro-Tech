@@ -1,0 +1,22 @@
+#Cardmenu {
+    background: #FFDCE4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 450px;
+    height: 100px;
+    margin-left: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
