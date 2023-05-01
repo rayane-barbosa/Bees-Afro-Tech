@@ -37,12 +37,13 @@ function App() {
         lidos="130"
         vouLer="60"
       />
-      
+      <b><hr/></b>
+      <h1 className="texto">Minha Estante</h1>
       {/* <Menu opcoes={opcoes} /> */}
       <MinhaEstante />
+      <h1 className="texto">Últimas Avaliações</h1>
 
-
-
+      
     </div>
   );
 

@@ -25,7 +25,7 @@ import iconResenhas from '../icons/iconResenhas.png';
         {
           icone: (
             <span>
-              <img className="icone"
+              <img className="card-menu__icon"
                 src={iconFavoritos}
                 alt="Favoritos"
               />
@@ -35,7 +35,7 @@ import iconResenhas from '../icons/iconResenhas.png';
           {
             icone: (
               <span>
-                 <img className="icone"
+                 <img className="card-menu__icon"
                   src={iconDesejados}
                   alt="Desejados"
                 />
@@ -45,7 +45,7 @@ import iconResenhas from '../icons/iconResenhas.png';
             {
               icone: (
                 <span>
-                   <img className="icone"
+                   <img className="card-menu__icon"
                     src={iconAvaliados}
                     alt="Avaliados"
                   />
@@ -55,7 +55,7 @@ import iconResenhas from '../icons/iconResenhas.png';
               {
                 icone: (
                   <span>
-                     <img className="icone"
+                     <img className="card-menu__icon"
                       src={iconResenhas}
                       alt="Resenhas"
                     />
@@ -67,9 +67,11 @@ import iconResenhas from '../icons/iconResenhas.png';
   
     return (
       <div className="minhaEstante">
-        <h1>Minha Estante</h1>
-        <Menu className="alinhaMenu" opcoes={opcoes} />
-        <LivroAvaliado/>
+        
+        <Menu className="alinhaMenu" opcoes={opcoes}/>
+        <LivroAvaliado/>  
+        
+        
       </div>
     );
   }

@@ -2,14 +2,25 @@
     height: 150px;
     width: auto;
     border-radius: 0%;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding-left: 8px;
 }
 
-.alinhaLivro {
+/*.alinhaLivro {
     display: flex;    
     float:inline-end;
     background-color: aqua;
     
     transform: translate(25%, -255%);
     
-}
+}*/
+
+.alinhaLivro {
+    display: flex;  
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 200px;
+    margin-right: 100px;
+    text-align: center;
+  }
+  
