@@ -1,0 +1,10 @@
+.Capa {
+    height: 50px;
+    border-radius: 0%;
+  }
+  #alinhaLivro {
+    display: flex;
+    padding: 50px 30px 50px 30px;
+    float: right;
+  }
+  

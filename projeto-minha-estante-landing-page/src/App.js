@@ -64,7 +64,7 @@ function App() {
         lidos="130"
         vouLer="60"
       />
-      <Menu opcoes={opcoes} />
+      <Menu opcoes={opcoes} /> 
       
     </div>
   );
