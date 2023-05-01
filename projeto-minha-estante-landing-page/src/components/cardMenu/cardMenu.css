@@ -1,22 +1,36 @@
 #Cardmenu {
     background: #FFDCE4;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 450px;
-    height: 100px;
+    justify-content: flex-start;
+    width: 550px;
+    height: 200px;
     margin-left: 50px;
     align-items: center;
     margin-top: 30px;
 }
 
-h3 {
+a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
     line-height: 18px;
+    text-decoration: none;
+    
 
     color: #000000;
-
 }
+
+#icone {
+    margin-left: 10px;
+    margin-right: 50px;
+    border-radius: 0%;
+}
+
+.icone{
+    border-radius: 0%;
+    width: 75px;
+    width: 75px;
+    padding-left: 25px;
+}
+

@@ -3,22 +3,11 @@ import './menu.css';
 import CardMenu from "../cardMenu/cardMenu";
 
 function Menu(props) {
-    return (
-        <div id="menu">
-            <nav>
-                <ul>
-                    {props.menuItems.map((item, index) => (
-                        <CardMenu key={index} nome={item} />
-                    ))}
-                </ul>
-
-            </nav>
-
-
-        </div>
-
-    );
-
-}
-
-export default Menu;
+    const opcoes = props.opcoes.map((opcao) => (
+      <CardMenu icone={opcao.icone} nome={opcao.nome}  />
+    ));
+  
+    return <div className="Menu">{opcoes}</div>;
+  }
+  
+  export default Menu;

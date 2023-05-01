@@ -1,11 +1,11 @@
-a {
-    text-decoration: none;
-    width: 66px;
-    height: 18px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 28px;
-    color: #000000;
+ul{
+    text-decoration-line: none;
+
 }
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+  }

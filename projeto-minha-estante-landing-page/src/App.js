@@ -4,10 +4,57 @@ import Header from './components/header/header.jsx';
 import CardAvaliacao from './components/card-avalicao';
 import Catalogo from './components/catalogo'; */
 import Menu from './components/menu/menu.jsx';
+import iconFavoritos from './iconFavoritos.png';
+import iconDesejados from './iconDesejados.png';
+import iconAvaliados from './iconAvaliados.png';
+import iconResenhas from './iconResenhas.png'
 
-import './App.css';
+const opcoes = [
+  {
+    icone: (
+      <span>
+        <img className="icone"
+          src={iconFavoritos}
+          alt="Favoritos"
+        />
+      </span>
+    ),
+    nome: "Favoritos" },
+    {
+      icone: (
+        <span>
+           <img className="icone"
+            src={iconDesejados}
+            alt="Desejados"
+          />
+        </span>
+      ),
+      nome: "Desejados" },
+      {
+        icone: (
+          <span>
+             <img className="icone"
+              src={iconAvaliados}
+              alt="Avaliados"
+            />
+          </span>
+        ),
+        nome: "Avaliados" },
+        {
+          icone: (
+            <span>
+               <img className="icone"
+                src={iconResenhas}
+                alt="Resenhas"
+              />
+            </span>
+          ),
+          nome: "Resenhas" } 
+
+];
 
 function App() {
+
   return (
     <div className="App">
       <Header
@@ -17,9 +64,7 @@ function App() {
         lidos="130"
         vouLer="60"
       />
-      <Menu 
-    menuItems={["Formulário", "Desejados", "Avaliados", "Resenhas"]}/>
-      
+      <Menu opcoes={opcoes} />
       
     </div>
   );

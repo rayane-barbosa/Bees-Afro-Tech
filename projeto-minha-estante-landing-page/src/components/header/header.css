@@ -18,13 +18,14 @@ h1 {
   }
   
   img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
   }
   
   #imagem {
     align-items: flex-start;
+    margin-left: 90px;
   }
   
   #header {
