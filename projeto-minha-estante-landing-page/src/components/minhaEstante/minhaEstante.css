@@ -1,0 +1,14 @@
+.minhaEstante{
+    background-color: blueviolet;
+    
+}
+h1{
+    text-align: center;
+    
+}
+.minhaEstante > h1:nth-child(1) {
+    line-height: 65px;
+    letter-spacing: 0.051em;
+    font-weight: 300;
+    font-style: normal;
+    }

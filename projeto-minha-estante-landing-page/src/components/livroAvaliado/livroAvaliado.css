@@ -1,10 +1,15 @@
 .Capa {
-    height: 50px;
+    height: 150px;
+    width: auto;
     border-radius: 0%;
-  }
-  #alinhaLivro {
-    display: flex;
-    padding: 50px 30px 50px 30px;
-    float: right;
-  }
-  
+    margin-left: 30px;
+}
+
+.alinhaLivro {
+    display: flex;    
+    float:inline-end;
+    background-color: aqua;
+    
+    transform: translate(25%, -255%);
+    
+}

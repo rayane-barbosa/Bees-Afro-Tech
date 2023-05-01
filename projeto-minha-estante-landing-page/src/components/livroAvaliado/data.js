@@ -14,6 +14,16 @@ const data = [
       id: 3,
       capa: "https://m.media-amazon.com/images/I/71LJ4k-k9hL.jpg",
       avaliacao: 4.2
+    },
+    {
+      id: 4,
+      capa: "https://m.media-amazon.com/images/I/81SM0D5+DwL.jpg",
+      avaliacao: 5.0
+    },
+    {
+      id: 5,
+      capa: "https://m.media-amazon.com/images/I/71LJ4k-k9hL.jpg",
+      avaliacao: 4.2
     }
   ];
   

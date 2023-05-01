@@ -4,7 +4,7 @@ import data from "./data.js";
 
 function LivroAvaliado() {
   return (
-    <div id="alinhaLivro">
+    <div className="alinhaLivro">
       {data.map((livro) => (
         <div key={livro.id}>
           <img className="Capa" src={livro.capa} alt={livro.nome} />
