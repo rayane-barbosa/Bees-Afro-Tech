@@ -1,0 +1,11 @@
+nav{
+    background-color: blueviolet;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+ul{
+    display: flex;
+    list-style:none;
+    margin: 0;
+}
