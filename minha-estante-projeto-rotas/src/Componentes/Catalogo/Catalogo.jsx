@@ -5,7 +5,7 @@ import './Catalogo.css';
 function Catalogo(props){
     return(
         <div className='catalogo'>
-            {props.livros.map(book => (
+            {props.books.map(book => (
                 <LivroAvaliado
                 key={book.id}
                 title={book.title}
