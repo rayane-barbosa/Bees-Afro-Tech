@@ -1,0 +1,27 @@
+.book-card{
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.book-image{
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.book-details{
+    flex: 1;
+}
+
+.book-title{
+    margin: 0;
+}
+
+.book-author{
+    margin: 0;
+    color: #666;
+}
